@@ -1,0 +1,7 @@
+# Ignore compiled and build files
+build/
+dist/
+nbproject/private/
+*.class
+*.jar
+*.properties
