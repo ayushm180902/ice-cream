@@ -1,13 +1,12 @@
-Online Ice Cream Store System
+Online Ice Cream Store Application
 
-This system enables users to conveniently place ice cream orders by adding them to a shopping cart. Users can also remove existing orders, view the total cost of their selected items, and proceed to checkout.
+This application allows users to effortlessly add ice cream orders into a shopping cart. They can also delete orders, check the total price of selected items, and finally complete checkout.
 
-Project Overview
-The system is built using five Java classes, each handling different functionalities:
-
-Menu – Manages text-based menus, allowing users to navigate through available options.
-IceCreamOrder – Represents individual ice cream orders.
-ShoppingCart – Stores ice cream orders in a cart, utilizing a standard Java array for storage.
-IceCreamStore – Maintains the shopping cart and provides a user interface for managing orders. Customers can view, update, price, or modify their orders through a menu-driven system.
-IceCreamStoreOnline – Serves as the main driver program for running the Ice Cream Store system.
-This project provides an easy-to-use ordering experience, allowing customers to manage their ice cream purchases efficiently. 
+Project Outline
+The application is structured using five Java classes, each with a distinct responsibility:
+Menu — Handles displaying text-based menus and lets users move through different options.
+IceCreamOrder — Represents a single ice cream order (for example: flavor, size, and extras).
+ShoppingCart — Contains multiple IceCreamOrder objects, implemented using a simple Java array.
+IceCreamStore — Oversees the shopping cart and offers a menu-driven interface for customers to add, view, edit, price, or remove orders.
+IceCreamStoreOnline — The main driver class, which launches the ice cream store system.
+This setup gives users a straightforward, user‑friendly way to manage their ice cream purchases efficiently.
